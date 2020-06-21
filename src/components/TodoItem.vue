@@ -4,8 +4,11 @@
             <input type="checkbox" v-on:change="markComplete">
             {{todo.title}}
         <b-button inline @click="$emit('del-todo', todo.id)" class="btn btn-outline-danger btn-sm float-right" variant="outline-danger">Delete</b-button>
-    <div class="date">
-    <label for="datepicker-buttons-sm">Choose a Date</label>
+ </b-form-group>
+
+    <b-form inline>
+       <div class="date">
+    <label for="datepicker-buttons-sm" >Choose a Date</label>
     <b-form-datepicker
       id="datepicker-buttons" size="sm"
       today-button
@@ -13,22 +16,19 @@
       close-button
       locale="en"
     ></b-form-datepicker>
-</div>
-           
-  
-    </b-form-group>
-    
-   <div class="time">
-    <label for="timepicker-buttons-sm">Choose a Time to Start Your Tasks</label>
+
+       </div>
+       <div class="time">
+    <label for="timepicker-buttons-sm" >Choose a Time to Start Your Tasks</label>
     <b-form-timepicker
       id="timepicker-buttons" size="sm"
       now-button
       reset-button
-      locale="en"
+      locale="en" 
     ></b-form-timepicker>
-  </div>
-
     </div>
+</b-form>
+  </div>
    
 
 </template>
@@ -54,7 +54,7 @@ export default {
     border-bottom: 1px black groove;
     margin-right: 50px;
     margin-left: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     height: 135px;
 }
 
@@ -67,17 +67,21 @@ export default {
 }
 .date{
     position: relative;
-    top:0px;
-    width: 30%;
-    margin-top:45px;
+    width: 25%;
+    margin-top: 0px;
+    position: top;
+    display: inline-block;
+    margin-bottom: 170px;
+    
 }
 .time{
-    top: 0px;
+    margin-left: 80px;
     width: 25%;
-    margin-left: 390px;
+    display: inline-block;
+    position: top;
+    margin-bottom: 170px;
     margin-top: 0px;
-    margin-bottom: 100px;
-    position: relative;
+
 }
 
 
