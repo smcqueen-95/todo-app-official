@@ -15,7 +15,6 @@ Software Developer and aspiring Game Developer
 - Bootstrap Vue was used for styling whihc was an itriduction to having Bootstrap in Vuejs framework.
 
 # Application Features
-- User can filter how many tasks they want shown on the screen
 - User can create a task
 - User can delete/complete a task
 - User updates the task with manually added date and time for the task
