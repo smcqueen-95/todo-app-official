@@ -1,19 +1,33 @@
 # VueJS Todo App
-## About the Author
+
+# About the Author
 Name: Samira Mc Queen
 [LinkedIn](https://www.linkedin.com/in/samira-mc-queen-1882431a7/)
 
 Free Spririted Caribbean Woman.
 Software Developer and aspiring Game Developer
 
-### Project 
+# Project 
 ![Video](./public/todo-app.gif)
 
 ## Experience with Project
 - This was my first project using Vuejs. It was a great first attempt and since then i have learned new concepts and methods.
 - Bootstrap Vue was used for styling whihc was an itriduction to having Bootstrap in Vuejs framework.
 
-## Project setup
+# Application Features
+- User can filter how many tasks they want shown on the screen
+- User can create a task
+- User can delete/complete a task
+- User updates the task with manually added date and time for the task
+
+# Frontend Built With
+- Vuejs
+- Bootstrap-Vue
+
+# Backend Built With
+- json file
+
+# Project setup
 Once the project is downloaded locally on your device do the following:
 `
 npm install
